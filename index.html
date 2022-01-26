@@ -6,114 +6,68 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      .container {
-        border: 1px solid red;
-        height: 1200px;
-        margin: 5px 100px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-      }
-      .box1 {
-        border: 1px solid black;
-        border-radius: 5px;
-        margin: 10px 20px;
-        width: 300px;
-        height: 300px;
-        background-color: seagreen;
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 900;
-        font-size: large;
-        position: relative;
-        /* transition-timing-function: linear; */
-      }
-      .box2 {
-        border: 1px solid black;
-        border-radius: 5px;
-        margin: 10px 20px;
-        width: 300px;
-        height: 300px;
-        background-color: rgb(223, 5, 132);
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 900;
-        font-size: large;
-        /* transition: width 2s; */
-        position: relative;
-        /* transition-timing-function: linear; */
-        /* z-index: 1; */
-      }
-      .box3 {
-        border: 1px solid black;
-        border-radius: 5px;
-        margin: 10px 20px;
-        width: 300px;
-        height: 300px;
-        background-color: rgb(19, 243, 93);
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 900;
-        font-size: large;
-        /* transition: width 2s; */
-        position: relative;
-        /* transition-timing-function: linear; */
-        /* z-index: 1; */
-      }
-      .box4 {
-        border: 1px solid black;
-        border-radius: 5px;
-        margin: 10px 20px;
-        width: 300px;
-        height: 300px;
-        background-color: rgb(253, 0, 219);
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 900;
-        font-size: large;
-        /* transition: width 2s; */
-        position: relative;
-        transition-timing-function: linear;
-        z-index: 1;
-        transition-duration: 4s;
-        /* transition-delay: 1s; */
-        transition-property: opacity, left, top 20, height 30;
-      }
-      .box1:hover {
-        width: 400px;
-        height: 400px;
-      }
-      .box2:hover {
-        width: 400px;
-        height: 400px;
-      }
-      .box3:hover:hover {
-        width: 400px;
-        height: 400px;
-      }
-      .box4:hover:hover {
-        width: 400px;
-        height: 400px;
-      }
-    </style>
+    <!-- Normal CSS added -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Transformation</title>
+    <style></style>
   </head>
   <body>
-    <div class="container">
-      <div class="box1">Box-1</div>
-      <div class="box2">Box-2</div>
-      <div class="box3">Box-3</div>
-      <div class="box4">Box-4</div>
-    </div>
+    <header class="navigation">
+      <nav class="nav-bar">
+        <div class="left-side">
+          <h1>DFS</h1>
+        </div>
+        <div class="right-side">
+          <ul class="listed-items">
+            <li class="li-items">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Home</a
+              >
+            </li>
+            <li class="li-items">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >About Us</a
+              >
+            </li>
+            <li class="li-items">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Contact Us</a
+              >
+            </li>
+            <li class="li-items">
+              <a href="http://" target="_blank" rel="noopener noreferrer"
+                >Gallery</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- 2nd Section start from here -->
+    <section>
+      <div class="container">
+        <div class="box1">Box-1</div>
+        <div class="box2">Box-2</div>
+        <div class="box3">Box-3</div>
+        <div class="box4">Box-4</div>
+      </div>
+    </section>
+    <!-- 3rd section start from here -->
+    <section>
+      <div class="container">
+        <div class="box">
+          <div class="inner">Box-1</div>
+        </div>
+        <div class="box">
+          <div class="inner">Box-2</div>
+        </div>
+        <div class="box">
+          <div class="inner">Box-3</div>
+        </div>
+        <div class="box">
+          <div class="inner">Box-4</div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
