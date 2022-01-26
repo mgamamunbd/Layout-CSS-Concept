@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;1,200&display=swap");
 
+/* Normal CSS */
 * {
   margin: 0;
   padding: 0;
@@ -10,11 +11,27 @@
 html {
   scroll-behavior: smooth;
   font-family: "Titillium Web", sans-serif;
+  background-color: rgb(143, 53, 91);
+}
+body {
+}
+h1 {
+  color: rgb(126, 20, 231);
+}
+h1 {
+  font-size: 2rem;
+}
+p {
+  color: seagreen;
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-size: normal;
+  font-weight: normal;
 }
 
 /* Header/Navigation Section */
 .navigation {
-  height: 100px;
+  height: 110px;
   background-color: cadetblue;
   border: 1px solid gray;
   padding: 0 20rem;
@@ -25,6 +42,15 @@ html {
   justify-content: space-between;
   align-items: center;
   margin-right: 0;
+}
+.logo {
+  border: 2px solid cadetblue;
+  color: white;
+}
+.logo:hover {
+  background-color: sienna;
+  border: 2px solid red;
+  border-radius: 5px;
 }
 .left-side {
   padding-left: 10px;
@@ -43,7 +69,6 @@ html {
   align-items: center;
 }
 .li-items {
-  /* padding-right: 100px; */
   list-style: none;
   font-size: 2rem;
   display: flex;
@@ -51,10 +76,18 @@ html {
   align-items: center;
   padding-left: 10px;
   padding-right: 10px;
+  cursor: pointer;
 }
 .li-items a {
   text-decoration: none;
   color: white;
+  border: 2px solid cadetblue;
+  border-radius: 5px;
+}
+.li-items a:hover {
+  background-color: sienna;
+  border: 2px solid red;
+  border-radius: 5px;
 }
 
 /* Banner Section */
