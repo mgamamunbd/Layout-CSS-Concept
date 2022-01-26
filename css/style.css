@@ -3,121 +3,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,700;1,400&display=swap");
 
 * {
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
-  /* font-size: 62.5%; */
-}
-.body {
   font-family: "Noto Serif", serif;
 }
-
-.container {
-  border: 1px solid red;
-  height: 1200px;
-  margin: 5px 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-}
-.box1 {
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 10px 20px;
-  width: 300px;
-  height: 300px;
-  background-color: seagreen;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 900;
-  font-size: large;
-  position: relative;
-  /* transition-timing-function: linear; */
-}
-.box2 {
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 10px 20px;
-  width: 300px;
-  height: 300px;
-  background-color: rgb(223, 5, 132);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 900;
-  font-size: large;
-  /* transition: width 2s; */
-  position: relative;
-  /* transition-timing-function: linear; */
-  /* z-index: 1; */
-}
-.box3 {
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 10px 20px;
-  width: 300px;
-  height: 300px;
-  background-color: rgb(19, 243, 93);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 900;
-  font-size: large;
-  /* transition: width 2s; */
-  position: relative;
-  /* transition-timing-function: linear; */
-  /* z-index: 1; */
-}
-.box4 {
-  border: 1px solid black;
-  border-radius: 5px;
-  margin: 10px 20px;
-  width: 300px;
-  height: 300px;
-  background-color: rgb(253, 0, 219);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 900;
-  font-size: large;
-  /* transition: width 2s; */
-  position: relative;
-  transition-timing-function: linear;
-  z-index: 1;
-  transition-duration: 4s;
-  /* transition-delay: 1s; */
-  transition-property: opacity, left, top 20, height 30;
-}
-.box1:hover {
-  width: 400px;
-  height: 400px;
-}
-.box2:hover {
-  width: 400px;
-  height: 400px;
-}
-.box3:hover:hover {
-  width: 400px;
-  height: 400px;
-}
-.box4:hover:hover {
-  width: 400px;
-  height: 400px;
-}
-
 .navigation {
   height: 80px;
   background-color: cadetblue;
   border: 1px solid gray;
+  padding: 20px;
 }
 .nav-bar {
   display: flex;
